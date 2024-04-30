@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AulaDS2024-04/AulaDS2024-04.iml" filepath="$PROJECT_DIR$/AulaDS2024-04/AulaDS2024-04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/DS.iml" filepath="$PROJECT_DIR$/.idea/DS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aulaDS2024-02/aulaDS2024-02.iml" filepath="$PROJECT_DIR$/aulaDS2024-02/aulaDS2024-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aulaDS2024-03_atividade/aulaDS2024-03_atividade.iml" filepath="$PROJECT_DIR$/aulaDS2024-03_atividade/aulaDS2024-03_atividade.iml" />
+    </modules>
+  </component>
+</project>
