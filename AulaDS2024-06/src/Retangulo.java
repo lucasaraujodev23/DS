@@ -26,10 +26,9 @@ public class Retangulo extends Figura {
 
     public double area(){
         double area = lado1 * lado2;
-        return area;
     }
 
     public String toString(){
-        String  = String.valueOf(area);
+         return this.area;
     }
 }
