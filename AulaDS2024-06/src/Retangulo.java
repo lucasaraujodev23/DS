@@ -2,7 +2,7 @@ public class Retangulo extends Figura {
     private double lado1;
     private double lado2;
 
-    public Retangulo(double lado1, double lado2, String cor){
+    public Retangulo(double lado1, double lado2){
         this.lado1 = lado1;
         this.lado2 = lado2;
         this.cor = cor;
@@ -24,11 +24,12 @@ public class Retangulo extends Figura {
         return (lado2);
     }
 
-    public double area(){
+    public double area() {
         double area = lado1 * lado2;
+        return area;
     }
 
     public String toString(){
-         return this.area;
+
     }
 }

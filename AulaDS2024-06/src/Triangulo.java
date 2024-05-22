@@ -2,7 +2,7 @@ public class Triangulo extends Figura{
     private double base;
     private double altura;
 
-    public Triangulo(double base, double altura, String cor){
+    public Triangulo(double base, double altura){
         this.base = base;
         this.altura = altura;
         this.cor = cor;
@@ -22,5 +22,14 @@ public class Triangulo extends Figura{
 
     public double getAltura(){
         return (altura);
+    }
+
+    public double area() {
+        double area = base * altura;
+        return area;
+    }
+
+    public String toString {
+
     }
 }

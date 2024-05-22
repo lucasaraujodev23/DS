@@ -1,5 +1,9 @@
 public class Quadrado extends Retangulo {
-    public Quadrado(double lado, String cor) {
+    public Quadrado(double lado) {
 
+    }
+
+    public String toString() {
+        return;
     }
 }
