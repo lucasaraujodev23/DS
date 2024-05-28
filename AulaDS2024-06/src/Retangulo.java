@@ -1,8 +1,8 @@
 public class Retangulo extends Figura {
-    private double lado1;
+    public double lado1;
     private double lado2;
 
-    public Retangulo(double lado1, double lado2){
+    public Retangulo(double lado1, double lado2, String cor){
         this.lado1 = lado1;
         this.lado2 = lado2;
         this.cor = cor;
@@ -30,6 +30,6 @@ public class Retangulo extends Figura {
     }
 
     public String toString(){
-
+        return super.toString();
     }
 }

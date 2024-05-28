@@ -3,7 +3,7 @@ public class Circulo extends Figura{
     private double raio;
 
     public Circulo(double raio){
-
+        this.raio = raio;
     }
 
     public void setRaio(double base){
@@ -15,15 +15,15 @@ public class Circulo extends Figura{
     }
 
     public double area(){
-        double area =
+        double area = raio*raio*3,14;
     }
 
     public double getDiametro(){
-        diametro = 2 * getRaio();
+        double diametro = 2 * raio;
         return diametro;
     }
 
     public String toString(){
-
+        return super.toString();
     }
 }
